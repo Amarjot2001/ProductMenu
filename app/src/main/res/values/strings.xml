@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Products</string>
+    <string name="title_activity_product_add">ProductAdd</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="desc">pizza, dish of Italian origin consisting of a flattened disk of breaddough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or othercheese, and many other ingredients, baked quickly—usually,in a commercial setting, using a wood-fired oven heated to a veryhigh temperature—and served hot.</string>
+    <string name="shopping_cart">Shopping cart</string>
+    <string name="product">Product</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="add">Add</string>
+    <string name="total">Total:</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="your_products">Your Products</string>
+    <string name="checkout">Checkout</string>
+    <string name="store_name">Store Name</string>
+    <string name="enter_name_here">Enter name here</string>
+    <string name="enter_location">Enter location</string>
+    <string name="save_details">Save Details</string>
+</resources>

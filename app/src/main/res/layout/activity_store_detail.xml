@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.StoreDetailActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Store Detail"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/menu_black"/>
+
+    <TextView
+        android:id="@+id/tv_store_name"
+        style="@style/Titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/store_name" />
+
+    <EditText
+        android:id="@+id/et_store_name"
+        style="@style/et_add_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name_here" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        style="@style/Titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_marginTop"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/et_address"
+        style="@style/et_add_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_location" />
+
+    <Button
+        android:id="@+id/saveDetailBtn"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/save_details"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
